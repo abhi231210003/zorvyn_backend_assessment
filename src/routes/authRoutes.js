@@ -6,6 +6,12 @@ const validate = require("../middleware/validate");
 
 const router = express.Router();
 
+router.get("/login", (req, res) => {
+  return res.status(405).json({
+    message: "Use POST /api/auth/login with email and password in JSON body",
+  });
+});
+
 router.post(
   "/login",
   [
