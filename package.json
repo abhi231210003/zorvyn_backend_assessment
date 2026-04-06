@@ -1,0 +1,36 @@
+{
+  "name": "zorvyn_backend_assessment",
+  "version": "1.0.0",
+  "description": "Finance data processing and access control backend",
+  "main": "src/server.js",
+  "scripts": {
+    "dev": "nodemon src/server.js",
+    "start": "node src/server.js",
+    "seed": "node src/seed/seedData.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abhi231210003/zorvyn_backend_assessment.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/abhi231210003/zorvyn_backend_assessment/issues"
+  },
+  "homepage": "https://github.com/abhi231210003/zorvyn_backend_assessment#readme",
+  "dependencies": {
+    "bcryptjs": "^3.0.3",
+    "cors": "^2.8.6",
+    "dotenv": "^17.4.1",
+    "express": "^5.2.1",
+    "express-validator": "^7.3.2",
+    "helmet": "^8.1.0",
+    "jsonwebtoken": "^9.0.3",
+    "mongoose": "^8.23.0",
+    "morgan": "^1.10.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}
