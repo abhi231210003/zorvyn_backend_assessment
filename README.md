@@ -119,6 +119,11 @@ npm run dev
 
 Base URL: `http://localhost:5000/api`
 
+## API Documentation
+
+- Swagger UI: `http://localhost:5000/api/docs`
+- OpenAPI JSON: `http://localhost:5000/api/docs.json`
+
 ## Seeded Demo Credentials
 
 - Admin: `admin@zorvyn.com` / `Admin@123`
